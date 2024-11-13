@@ -6,19 +6,19 @@ import Footers from "@/components/shared/footers";
 import Chat from "@/components/shared/chat";
 
 const tripSansRegular = localFont({
-  src: "./fonts/TripSans-Regular.woff",
+  src: "./fonts/TripSans-Regular.woff", // Ensure this path is correct
   variable: "--font-trip-sans-regular",
   weight: "400",
 });
 
 const tripSansBold = localFont({
-  src: "./fonts/TripSans-Bold.woff",
+  src: "./fonts/TripSans-Bold.woff", // Ensure this path is correct
   variable: "--font-trip-sans-bold",
   weight: "900",
 });
 
 const tripSansMedium = localFont({
-  src: "./fonts/TripSans-Medium.woff",
+  src: "./fonts/TripSans-Medium.woff", // Ensure this path is correct
   variable: "--font-trip-sans-medium",
   weight: "700",
 });
@@ -38,6 +38,7 @@ export default function RootLayout({
       <body
         className={`${tripSansRegular.variable} ${tripSansBold.variable} ${tripSansMedium.variable} antialiased`}
       >
+        {/* Uncomment these components if you want them rendered */}
         <Header />
         {children}
         <Chat />
