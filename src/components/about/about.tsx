@@ -12,11 +12,11 @@ const AboutDetails = () => {
                     <img src="/images/about-1.png" alt="logo" />
                 </div>
                 <h2 className='text-[26px] lg:text-[40px]'>We built Crypto platform to buy & sell shares.</h2>
-                <p className='text-[16px] text-[#919DA4]'>Progressively predominate performance based internal or "orga sources before high standards in architectures. Interactively ini transparent functionalities via efficient ROI.</p>
+                <p className='text-[14px] md:text-[16px] text-[#919DA4]'>Progressively predominate performance based internal or "orga sources before high standards in architectures. Interactively ini transparent functionalities via efficient ROI.</p>
                 <ul className='space-y-5'>
-                    <li className='flex gap-3 items-center'><Check size={15}/> Prioritize the features your customers need</li>
-                    <li className='flex gap-3 items-center'><Check size={15}/> Align Everyone around the Roadmap</li>
-                    <li className='flex gap-3 items-center'><Check size={15}/> Uniquely Empower Parallel Total Talents</li>
+                    <li className='text-[14px] md:text-[16px] flex gap-3 items-center'><Check size={15}/> Prioritize the features your customers need</li>
+                    <li className='text-[14px] md:text-[16px] flex gap-3 items-center'><Check size={15}/> Align Everyone around the Roadmap</li>
+                    <li className='text-[14px] md:text-[16px] flex gap-3 items-center'><Check size={15}/> Uniquely Empower Parallel Total Talents</li>
                 </ul>
             </div>
         </div>

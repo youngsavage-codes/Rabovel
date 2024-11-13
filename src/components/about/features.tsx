@@ -5,8 +5,8 @@ const Card = ({image, title, desc}: any) => (
         <div className="w-[80px] h-[80px] rounded-full bg-[#141227] flex items-center justify-center">
             <img src={image} alt="" />
         </div>
-        <h2 className="text-[20px]">{title}</h2>
-        <p className="text-[16px] text-[#919DA4]">{desc}</p>
+        <h2 className="text-[16px] md:text-[20px]">{title}</h2>
+        <p className="text-[14px] lg:text-[16px] text-[#919DA4]">{desc}</p>
     </div>
 )
 
@@ -20,7 +20,7 @@ const Features = () => {
                 <img src="/images/about-1.png" alt="logo" className="object-contain" />
             </div>
             <h2 className='text-[26px] lg:text-[40px] text-center mt-2 mb-5'>Crypto Best Features</h2>
-            <p className="text-center text-[16px] text-[#919DA4]">Cryptocurrencies are used primarily outside existing banking and coin <br /> governmental institutions and are exchanged</p>
+            <p className="text-center text-[14px] md:text-[16px] text-[#919DA4]">Cryptocurrencies are used primarily outside existing banking and coin <br /> governmental institutions and are exchanged</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-20'>
                 <Card image="/images/Services_1.png" title="Early Bonus Cash" desc="Professionally engineer customized scenari a-vis innovative interfaces. Synergistically ta sustainable infomediaries via multidiscipli web services uniquely."/>
                 <Card image="/images/ico-img.png" title="Secure Payment" desc="Professionally engineer customized scenari a-vis innovative interfaces. Synergistically ta sustainable infomediaries via multidiscipli web services uniquely."/>

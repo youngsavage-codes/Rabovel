@@ -2,10 +2,10 @@ import React from 'react'
 import ContactForm from './contactform'
 
 const Card = ({title, address}: any) => (
-  <div className='bg-[#141227] p-10 flex rounded-lg'>
+  <div className='bg-[#141227] p-5 lg:p-10 flex rounded-lg'>
     <div>
-      <h2 className='text-[20px] lg:text-[24px]'>{title}</h2>
-      <p className='text-[16px] text-[#919DA4]'>{address}</p>
+      <h2 className='text-[16px] md:text-[20px] lg:text-[24px]'>{title}</h2>
+      <p className='text-[14px] md:text-[16px] text-[#919DA4]'>{address}</p>
     </div>
   </div>
 )

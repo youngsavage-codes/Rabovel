@@ -5,7 +5,7 @@ import { Textarea } from '../ui/textarea'
 
 const ContactForm = () => {
   return (
-    <div className='bg-[#141227] p-7 rounded-lg'>
+    <div className='bg-[#141227] p-5 lg:p-7 rounded-lg'>
         <h2 className="text-[26px] lg:text-[28px] mb-5">Get In Touch</h2>
         <div className="space-y-5">
             <div className='space-y-5'>

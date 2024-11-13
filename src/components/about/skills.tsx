@@ -10,10 +10,10 @@ const Skills = () => {
                     <img src="/images/about-1.png" alt="logo" />
                 </div>
                 <h2 className='text-[26px] lg:text-[40px] mt-2 mb-5'>Cryptobit Expertise</h2>
-                <p className="text-[16px] text-[#919DA4] mb-5">
+                <p className="text-[14px] lg:text-[16px] text-[#919DA4] mb-5">
                     Progressively predominate performance based internal or "orga sources before high standards in architectures. Interactively ini transparent functionalities via efficient ROI. Quickly administrate extensive partnerships.
                 </p>
-                <p className="text-[16px] text-[#919DA4]">
+                <p className="text-[14px] lg:text-[16px] text-[#919DA4]">
                     Architectures. Interactively ini transparent functionalities via ROI. Quickly administrate extensive partne..
                 </p>
             </div>

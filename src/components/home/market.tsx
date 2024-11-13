@@ -76,7 +76,7 @@ const Market = () => {
             <div className="flex items-center">
               <img src={item.image} alt={item.name} className="w-12 h-12 rounded-full mr-4" />
               <div className=''>
-                <h2 className="font-semibold text-[20px]">{item.name}</h2>
+                <h2 className="font-semibold text-[16px] md:text-[20px]">{item.name}</h2>
                 <p className="text-xs lg:text-sm text-gray-500 flex items-center wfull"><span className="text-white">PRICE</span> = {item.price}</p>
               </div>
             </div>

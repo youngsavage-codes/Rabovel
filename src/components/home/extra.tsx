@@ -2,13 +2,13 @@ import Link from 'next/link'
 import React from 'react'
 
 const Card = ({image, title, desc}: any) => (
-    <div className='lg:flex items-start gap-5 bg-[#141227] p-10 rounded-lg'>
-        <div className='bg-[#1F2544] w-fit p-5 lg:p-7 flex items-center justify-center rounded-full'>
-            <img src={image} alt="" className='w-26 lg:w-32 object-contain'/>
+    <div className='lg:flex items-start gap-5 bg-[#141227] p-5 lg:p-10 rounded-lg'>
+        <div className='relative z-10 bg-[#1B1F39] lg:bg-transparent rounded-full w-[70px] h-[70px] flex items-center justify-center group-hover:bg-opacity-80'>
+            <img src={image} alt="" className='mx-auto transform transition-transform duration-200 group-hover:scale-110' />
         </div>
         <div className='space-y-5'>
-            <h2 className="text-[20px] lg:text-[24px] mt-5 lg:mt-0">{title}</h2>
-            <p className="text-[16px] text-[#919DA4]">{desc}</p>
+            <h2 className="text-[16px] md:text-[20px] lg:text-[24px] mt-5 lg:mt-0">{title}</h2>
+            <p className="text-[14px] md:text-[16px] text-[#919DA4]">{desc}</p>
             <div><Link href="" className='text-[#745CEC]'>Read More</Link></div>
         </div>
     </div>
@@ -17,7 +17,7 @@ const Card = ({image, title, desc}: any) => (
 const Extra = () => {
   return (
     <div className='bg-[#020415] text-white'>
-        <div className='lg:max-w-[1200px] mx-auto py-20 grid lg:grid-cols-2 gap-10 px-5 lg:px-0'>
+        <div className='lg:max-w-[1200px] mx-auto py-20 grid md:grid-cols-2 gap-10 px-5 lg:px-0'>
             <Card 
                 image="/images/Services_1.png" 
                 title="NFT Development" 

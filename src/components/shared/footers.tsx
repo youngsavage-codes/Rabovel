@@ -11,7 +11,7 @@ const Footers = () => {
             <div className='border-t border-[#171443] py-20 lg:flex items-start justify-between gap-5 space-y-10 px-5 lg:px-0'>
                 <div className='space-y-5 lg:w-[285px]'>
                     <img src="/images/logo.png" alt="" />
-                    <p className='text-[#919DA4] text-[16px]'>Cryptocurrencies are used prim outside existing banking govern institutions hanged</p>
+                    <p className='text-[#919DA4] text-[14px] md:text-[16px]'>Cryptocurrencies are used prim outside existing banking govern institutions hanged</p>
                     <div className='flex gap-5 items-center'>
                         <div className='bg-[#141227] p-3 rounded-full'>
                             <Github size={15}/>
@@ -25,7 +25,7 @@ const Footers = () => {
                     </div>
                 </div>
                 <div className='space-y-5 lg:w-[285px]'>
-                    <h2 className="text-[20px]">Catagories</h2>
+                    <h2 className="text-[16px] md:text-[20px]">Catagories</h2>
                     <ul className="space-y-3">
                         <li><Link href={''} className="text-[15px] hover:text-[#745CEC] ease-in-out transition-all duration-150 flex items-center gap-3"><div className='w-4 h-[1px] bg-[#745CEC]'></div> What is ICO</Link></li>
                         <li><Link href={''} className="text-[15px] hover:text-[#745CEC] ease-in-out transition-all duration-150 flex items-center gap-3"><div className='w-4 h-[1px] bg-[#745CEC]'></div> Tokens</Link></li>
@@ -34,7 +34,7 @@ const Footers = () => {
                     </ul>
                 </div>
                 <div className='space-y-5 lg:w-[285px]'>
-                    <h2 className="text-[20px]">Useful Links</h2>
+                    <h2 className="text-[16px] md:text-[20px]">Useful Links</h2>
                     <ul className="space-y-3">
                         <li><Link href={''} className="text-[15px] hover:text-[#745CEC] ease-in-out transition-all duration-150 flex items-center gap-3"><div className='w-4 h-[1px] bg-[#745CEC]'></div> Payment & TAX</Link></li>
                         <li><Link href={''} className="text-[15px] hover:text-[#745CEC] ease-in-out transition-all duration-150 flex items-center gap-3"><div className='w-4 h-[1px] bg-[#745CEC]'></div> Terms of Services</Link></li>
@@ -43,8 +43,8 @@ const Footers = () => {
                     </ul>
                 </div>
                 <div className='space-y-5 lg:w-[285px]'>
-                    <h2 className="text-[20px]">Newsletter</h2>
-                    <p className='text-[#919DA4] text-[16px]'>Get now free 20% discount for all products on your first order</p>
+                    <h2 className="text-[16px] md:text-[20px]">Newsletter</h2>
+                    <p className='text-[#919DA4] text-[14px] md:text-[16px]'>Get now free 20% discount for all products on your first order</p>
                     <div className='flex gap-5 items-center bg-[#141227] rounded-full p-3'>
                         <Input className='border-none' placeholder='Enter E-Main'/>
                         <Button className='bg-[#745CEC] rounded-full'>

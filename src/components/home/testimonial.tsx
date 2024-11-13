@@ -23,21 +23,21 @@ const Card = ({ image, name, position, message, stars }: any) => {
   };
 
   return (
-    <div className="p-10 bg-[rgba(16,16,42,0.5)] rounded-lg overflow-hidden relative transition-all duration-500 group">
+    <div className="p-5 lg:p-10 bg-[rgba(16,16,42,0.5)] rounded-lg overflow-hidden relative transition-all duration-500 group">
       {/* Background Image on hover */}
       <div className="absolute inset-0 w-full h-full bg-[url('/images/tranding-2.png')] bg-cover bg-no-repeat bg-center transition-all duration-500 opacity-0 group-hover:opacity-100 z-0"></div>
       
       {/* Image and Name Section */}
       <div className="flex gap-5 relative z-10">
-        <img src={image} alt={name} className="rounded-full object-contain" />
+        <img src={image} alt={name} className='transform transition-transform duration-200 group-hover:scale-110' />
         <div>
-          <h3 className="text-[20px] lg:text-[24px]">{name}</h3>
-          <h4 className="text-[16px] text-[#92A1B4]">{position}</h4>
+          <h3 className="text-[16px] md:text-[20px] lg:text-[24px]">{name}</h3>
+          <h4 className="text-[14px] md:text-[16px] text-[#92A1B4]">{position}</h4>
         </div>
       </div>
       
       {/* Message */}
-      <p className="text-[16px] text-[#92A1B4] py-5 relative z-10">{message}</p>
+      <p className="text-[14px] md:text-[16px] text-[#92A1B4] py-5 relative z-10">{message}</p>
 
       {/* Star Rating */}
       <div className="flex items-center gap-2 text-[#745CEC] relative z-10">

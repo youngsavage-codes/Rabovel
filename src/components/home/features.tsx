@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Card = ({ image, title, desc }: any) => (
-    <div className="p-10 bg-[rgba(16,16,42,0.5)] rounded-lg overflow-hidden relative transition-all duration-500 group">
+    <div className="p-5 lg:p-10 bg-[rgba(16,16,42,0.5)] rounded-lg overflow-hidden relative transition-all duration-500 group">
         {/* Background Image on hover */}
         <div
             className="absolute inset-0 w-full h-full bg-[url('/images/service.png')] bg-cover bg-no-repeat bg-center transition-all duration-500 opacity-0 group-hover:opacity-100 z-0"
@@ -10,8 +10,8 @@ const Card = ({ image, title, desc }: any) => (
         <div className='relative z-10 bg-[#1B1F39] rounded-full mx-auto w-[70px] h-[70px] flex items-center justify-center group-hover:bg-opacity-80'>
             <img src={image} alt="" className='mx-auto transform transition-transform duration-200 group-hover:scale-110' />
         </div>
-        <h3 className='relative z-10 text-center text-[20px] mt-4 group-hover:text-[#745CEC]'>{title}</h3>
-        <p className='relative z-10 text-center text-[16px] mt-2 text-[#919DA4] group-hover:text-white'>{desc}</p>
+        <h3 className='relative z-10 text-center text-[16px] md:text-[20px] mt-4 group-hover:text-[#745CEC]'>{title}</h3>
+        <p className='relative z-10 text-center text-[14px] md:text-[16px] mt-2 text-[#919DA4] group-hover:text-white'>{desc}</p>
     </div>
 )
 
