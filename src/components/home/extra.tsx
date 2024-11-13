@@ -4,10 +4,10 @@ import React from 'react'
 const Card = ({image, title, desc}: any) => (
     <div className='lg:flex items-start gap-5 bg-[#141227] p-10 rounded-lg'>
         <div className='bg-[#1F2544] w-fit p-5 lg:p-7 flex items-center justify-center rounded-full'>
-            <img src={image} alt="" className='lg:w-32'/>
+            <img src={image} alt="" className='w-26 lg:w-32 object-contain'/>
         </div>
         <div className='space-y-5'>
-            <h2 className="text-[24px] mt-5 lg:mt-0">{title}</h2>
+            <h2 className="text-[20px] lg:text-[24px] mt-5 lg:mt-0">{title}</h2>
             <p className="text-[16px] text-[#919DA4]">{desc}</p>
             <div><Link href="" className='text-[#745CEC]'>Read More</Link></div>
         </div>
@@ -17,7 +17,7 @@ const Card = ({image, title, desc}: any) => (
 const Extra = () => {
   return (
     <div className='bg-[#020415] text-white'>
-        <div className='lg:max-w-[1200px] mx-auto py-20 grid lg:grid-cols-2 gap-10 px-10 lg:px-0'>
+        <div className='lg:max-w-[1200px] mx-auto py-20 grid lg:grid-cols-2 gap-10 px-5 lg:px-0'>
             <Card 
                 image="/images/Services_1.png" 
                 title="NFT Development" 

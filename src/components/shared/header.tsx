@@ -25,12 +25,12 @@ const Header = () => {
 
     return (
         <div 
-            className={`fixed top-0 left-0 w-full z-50 px-10 lg:px-0 transition-colors duration-300 ${
+            className={`fixed top-0 left-0 w-full z-50 px-5 lg:px-0 transition-colors duration-300 ${
                 scrollPosition > 80 ? 'bg-[#020415]' : 'bg-transparent'
             }`}
         >
             <div className='max-w-[1200px] mx-auto flex items-center justify-between py-5 text-white'>
-                <img src="/images/logo.png" alt="logo" className='w-32' />
+                <img src="/images/logo.png" alt="logo" className='w-32 object-contain' />
                 <nav>
                     <ul className='hidden lg:flex items-center justify-between gap-10'>
                         {links.map((route, index) => (

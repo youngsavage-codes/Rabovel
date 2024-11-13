@@ -13,13 +13,13 @@ const Card = ({image, title, desc}: any) => (
 const Features = () => {
   return (
     <div className='text-white bg-[#020415]'>
-        <div className='max-w-[1200px] mx-auto py-20 px-10 lg:px-0 border-b border-[#171443]'>
+        <div className='max-w-[1200px] mx-auto py-20 px-5 lg:px-0 border-b border-[#171443]'>
             <div className='flex items-center justify-center gap-3'>
                 <img src="/images/about-1.png" alt="logo" className='transform scale-x-[-1]' />
                 <h5 className='uppercase text-[#745CEC] text-[18px]'>Features</h5>
-                <img src="/images/about-1.png" alt="logo" />
+                <img src="/images/about-1.png" alt="logo" className="object-contain" />
             </div>
-            <h2 className='text-[30px] lg:text-[40px] text-center mt-2 mb-5'>Crypto Best Features</h2>
+            <h2 className='text-[26px] lg:text-[40px] text-center mt-2 mb-5'>Crypto Best Features</h2>
             <p className="text-center text-[16px] text-[#919DA4]">Cryptocurrencies are used primarily outside existing banking and coin <br /> governmental institutions and are exchanged</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-20'>
                 <Card image="/images/Services_1.png" title="Early Bonus Cash" desc="Professionally engineer customized scenari a-vis innovative interfaces. Synergistically ta sustainable infomediaries via multidiscipli web services uniquely."/>

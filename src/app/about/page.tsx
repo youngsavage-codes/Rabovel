@@ -9,8 +9,8 @@ const About = () => {
   return (
     <div className='text-white'>
         <div className='text-center py-32 about-area'>
-            <h2 className='text-[40px]'>About Us</h2>
-            <h5 className='text-[20px]'><span className='text-[#745CEC]'>Home</span> - About us</h5>
+            <h2 className='text-[26px] lg:text-[40px]'>About Us</h2>
+            <h5 className='text-[16px]'><span className='text-[#745CEC]'>Home</span> - About us</h5>
         </div>
         <div>
             <AboutDetails />

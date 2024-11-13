@@ -8,7 +8,7 @@ const Footers = () => {
   return (
     <div className='text-white bg-[#020415]'>
         <div className='lg:max-w-[1200px] mx-auto'>
-            <div className='border-t border-[#171443] py-20 lg:flex items-start justify-between gap-5 space-y-10 px-10 lg:px-0'>
+            <div className='border-t border-[#171443] py-20 lg:flex items-start justify-between gap-5 space-y-10 px-5 lg:px-0'>
                 <div className='space-y-5 lg:w-[285px]'>
                     <img src="/images/logo.png" alt="" />
                     <p className='text-[#919DA4] text-[16px]'>Cryptocurrencies are used prim outside existing banking govern institutions hanged</p>

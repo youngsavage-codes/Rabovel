@@ -23,7 +23,7 @@ const Team = () => {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-[215px] h-[215px] rounded-full mx-auto transition-all duration-300 group-hover:opacity-80"
+                className="w-[215px] h-[215px] rounded-full mx-auto transition-all duration-300 group-hover:opacity-80 object-contain"
               />
               {/* Overlay for darkening the image */}
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>

@@ -29,9 +29,9 @@ const Card = ({ image, name, position, message, stars }: any) => {
       
       {/* Image and Name Section */}
       <div className="flex gap-5 relative z-10">
-        <img src={image} alt={name} className="rounded-full" />
+        <img src={image} alt={name} className="rounded-full object-contain" />
         <div>
-          <h3 className="text-[22px]">{name}</h3>
+          <h3 className="text-[20px] lg:text-[24px]">{name}</h3>
           <h4 className="text-[16px] text-[#92A1B4]">{position}</h4>
         </div>
       </div>
@@ -51,13 +51,13 @@ const Card = ({ image, name, position, message, stars }: any) => {
 const Testimonial = () => {
   return (
     <div className="slider-area text-white">
-      <div className="max-w-[1200px] mx-auto py-20 px-10 lg:px-0">
+      <div className="max-w-[1200px] mx-auto py-20 px-5 lg:px-0">
         <div className="flex items-center justify-center gap-3">
           <img src="/images/about-1.png" alt="logo" className="transform scale-x-[-1]" />
           <h5 className="uppercase text-[#745CEC] text-[18px]">Testimonial</h5>
           <img src="/images/about-1.png" alt="logo" />
         </div>
-        <h2 className="text-[30px] lg:text-[40px] text-center mt-2 mb-10">From Our Clients</h2>
+        <h2 className="text-[26px] lg:text-[40px] text-center mt-2 mb-10">From Our Clients</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           <Card
             name="Alex John"

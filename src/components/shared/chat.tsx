@@ -29,7 +29,7 @@ const Chat = () => {
   }
 
   return (
-    <div className='fixed h-[700px] w-[90%] mx-5 lg:m-0 lg:w-[400px] bg-white lg:right-10 bottom-10 rounded-lg z-50 shadow-lg'>
+    <div className='fixed h-[600px] w-[90%] mx-5 lg:m-0 lg:w-[400px] bg-white lg:right-10 bottom-10 rounded-lg z-50 shadow-lg'>
       {/* Header section */}
       <div className={`p-5 rounded-t-lg ${activeTab === 'Home' ? 'bg-gradient-to-b from-[#745CEC] to-transparent h-[50vh]' : 'bg-white h-auto'}`}>
         <div className='flex items-center justify-between'>

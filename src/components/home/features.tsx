@@ -20,13 +20,13 @@ const Card = ({ image, title, desc }: any) => (
 const Features = () => {
   return (
     <div className='slider-area text-white'>
-        <div className='max-w-[1200px] mx-auto py-20 px-10 lg:px-0'>
+        <div className='max-w-[1200px] mx-auto py-20 px-5 lg:px-0'>
             <div className='flex items-center justify-center gap-3'>
                 <img src="/images/about-1.png" alt="logo" className='transform scale-x-[-1]' />
                 <h5 className='uppercase text-[#745CEC] text-[18px]'>Features</h5>
                 <img src="/images/about-1.png" alt="logo" />
             </div>
-            <h2 className='text-[30px] lg:text-[40px] text-center mt-2 mb-10'>We Take Care Quality</h2>
+            <h2 className='text-[26px] lg:text-[40px] text-center mt-2 mb-10'>We Take Care Quality</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 <Card image="/images/icons-img.png" title="Best Trading Platform" desc="Cryptography, encryption process referred to as plaintexts tailers are before best services."/>
                 <Card image="/images/icon-2.png" title="Comportable System" desc="Cryptography, encryption process referred to as plaintexts tailers are before best services."/>
