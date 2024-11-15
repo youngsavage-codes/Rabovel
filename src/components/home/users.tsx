@@ -12,7 +12,7 @@ const Users = () => {
             <img src="/images/about-1.png" alt="logo" />
           </div>
           <h2 className='text-[30px] lg:text-[40px]'>Our best users all over the World Coverages</h2>
-          <p className='text-[16px] text-[#919DA4]'>Credibly streamline premium innovation and client-focused the. Intrinsicly integrate end-to-end synergy whereas low-risk highs sources phosfluorescently.</p>
+          <p className='text-[14px] md:text-[16px] text-[#919DA4]'>Credibly streamline premium innovation and client-focused the. Intrinsicly integrate end-to-end synergy whereas low-risk highs sources phosfluorescently.</p>
           <ul className='grid lg:grid-cols-2 gap-5'>
             <li className='flex gap-3 items-center'>
               <img src="/images/about.png" alt="" />

@@ -4,7 +4,7 @@ import React from 'react'
 const Card = ({image, title, desc}: any) => (
     <div className='lg:flex items-start gap-5 bg-[#141227] p-5 lg:p-10 rounded-lg'>
         <div className='relative z-10 bg-[#1B1F39] lg:bg-transparent rounded-full w-[70px] h-[70px] flex items-center justify-center group-hover:bg-opacity-80'>
-            <img src={image} alt="" className='mx-auto transform transition-transform duration-200 group-hover:scale-110' />
+            <img src={image} alt="" className='mx-auto transform transition-transform duration-200 group-hover:scale-110 object-contain' />
         </div>
         <div className='space-y-5'>
             <h2 className="text-[16px] md:text-[20px] lg:text-[24px] mt-5 lg:mt-0">{title}</h2>
